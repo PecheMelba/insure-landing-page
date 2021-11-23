@@ -1,0 +1,208 @@
+@media all and (min-width: 900px)
+{
+    #menu-close-btn, #menu-btn { display:none; }
+
+    /* -----------------HEADER------------- */
+    header
+    {
+        padding: 1em 10vw;
+    }
+    #menu
+    {
+        display:flex;
+        position: initial;
+        justify-content: rights;
+        align-items: center;
+
+        width:  70%;
+        height: auto;
+        background:none;
+        color: rgb(102, 102, 102);
+        font-size: 1.2em;
+    }
+    #menu div
+    {
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+    .sub-menu:hover
+    {
+        cursor: pointer;
+        color:black;
+    }
+    #nav-view-plan
+    {
+        width: 50%;
+        padding: 0.5em 1.5em;
+        height: auto;
+        margin: auto;
+        color: rgb(0, 0, 0);
+        border: 2px solid black;    
+    }
+    #nav-view-plan:hover
+    {
+        cursor: pointer;
+        background-color: rgb(45, 38, 64);
+        font-weight: bold;
+        color:white;
+    }
+    /* -----------------INTRO-------------- */
+    #intro-pannel
+    {
+        background: url("images/bg-pattern-intro-left-desktop.svg") no-repeat left bottom / 10vw 50vh ,
+                linear-gradient(to top, rgba(0, 0, 0, 0) 35%, hsl(256, 26%, 20%) 10%);
+        position: relative;
+        
+        width: 100%;
+        margin:0 0 2em 0;
+        padding: 0 0 15em 0;
+        overflow: hidden;
+    }
+    #intro-content-pannel
+    {
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+
+        width:80%;
+        margin:0 auto;
+        padding: 0;
+    }
+    #intro-text-container
+    {
+        background:none;
+        text-align: left;
+        width:auto;
+        margin: 0 auto;
+        padding: 0 2em 0 0;
+    }
+    #intro-title
+    {
+        color:white;
+        font-size: 4em;
+        margin-bottom: 0.4em;
+    }
+    #intro-img
+    {
+        position:relative;
+        top:6em;
+        /* right: 14vw; */
+        width:40vw;
+        padding: 0;
+        margin:0;
+    }
+    #intro-right-bg
+    {
+        display: inline;
+        position:absolute;
+        top:-8%;
+        right: 0;
+        height:65%;
+        z-index: 1;
+    }
+    #view-plan-btn
+    {
+        width: 30%;
+        margin: 2em 0 0 0;
+        text-align: center;
+        
+    }
+    #view-plan-btn:hover
+    {
+        cursor: pointer;
+        background-color: white;
+        font-weight: bold;
+        color:rgb(45, 38, 64);
+    }
+    /* -------------INFOS------------- */
+    #infos-elem-container
+    {
+        display:flex;
+        text-align:left;
+        width:80%;
+        margin: 0 auto 4em auto;
+    }
+    .infos-elem
+    {
+        margin-right: 2em;
+        width:30%;
+    }
+    #infos-pannel-title
+    {        
+        margin: 0 auto 1.5em auto;
+        font-size: 3.5em;
+        width:80%;  
+        text-align:left;
+    }
+    /* --------------MORE INFOS---------------- */
+    #more-infos-pannel
+    {
+        width:75%;
+        height: 7.7em;
+        background: rgb(45, 38, 64) url("images/bg-pattern-how-we-work-desktop.svg") no-repeat right top;
+
+        display:flex;
+        justify-content:center;
+        align-items: center;     
+    }
+    #more-infos-itle
+    {
+        width:40%;
+        font-size: 3em;
+        text-align: left;
+        margin:0 auto;
+    }
+    #how-we-work-btn
+    {
+        width: 15%;
+        padding: 0.7em;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+    #how-we-work-btn:hover
+    {
+        cursor: pointer;
+        background-color: white;
+        color:rgb(45, 38, 64);
+    }
+
+    /* ------------FOOTER------------ */
+    #footer-top-container
+    {
+        display:flex;
+        justify-content:space-between;
+        width:75%;
+        margin: 0 auto;
+    }
+    #footer-networks img
+    {
+        margin-right: 1em;
+    }
+    #footer-networks img:hover
+    {
+        cursor: pointer;
+        filter: grayscale(100%) brightness(38%);
+        -webkit-filter: grayscale(100%) brightness(38%);
+        -moz-filter: grayscale(100%) brightness(38%);
+    }
+
+    #menu-container
+    {
+        display:flex;
+        justify-content:start;
+        width:75%;
+        margin:0 auto;
+        text-align:left;
+    }
+    .menu-elem
+    {
+        margin-right: 10em;
+    }
+    .sub-menu-elem:hover
+    {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}

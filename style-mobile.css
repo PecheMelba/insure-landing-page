@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+*{
+ margin:0;   
+ padding:0;   
+}
+
+#intro-text-container, #infos-pannel, #more-infos-pannel
+{
+    font-family: "Karla";
+}
+
+header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    position: relative;
+}
+#menu-close-btn { display:none; }
+#menu
+{
+    display: none;   
+    position: absolute;
+    top:9vh;
+    left:0;
+
+    background: hsl(256, 26%, 20%) url("images/bg-pattern-mobile-nav.svg") no-repeat bottom;
+    width:100vw;
+    height:91vh;
+    
+    text-align: center;
+    color:white;
+    font-size: 1.5em;
+    font-family: "Karla";
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#menu div
+{
+    margin-top: 2em;
+}
+#nav-view-plan
+{
+    border: 2px solid white;    
+    width: 90%;
+    margin: 2.5em auto 0 auto;
+    padding:0.5em 0;
+}
+
+
+/* --------------INTRO PANNEL------------ */
+#intro-pannel
+{
+    background: url("images/bg-pattern-intro-right-mobile.svg") no-repeat right bottom -0.5em,
+                linear-gradient(to top, rgba(0, 0, 0, 0) 15%, hsl(256, 26%, 20%) 15%);
+    z-index: 1;
+    padding-bottom: 15em;
+}
+#intro-right-bg {display:none;}
+#intro-img
+{
+    display:block;
+    margin:0 auto;
+
+    width:100%;
+}
+#intro-text-container
+{    
+    background: url("images/bg-pattern-intro-left-mobile.svg") no-repeat;    
+    z-index: 0;
+    padding: 4em 1em 4em 1em;
+    text-align: center;
+}
+#intro-title
+{
+    color:white;
+    font-size: 2.5em;
+    margin-bottom: 0.4em;
+}
+#intro-subtext
+{
+    color:rgb(187, 187, 187);
+}
+#view-plan-btn
+{
+    color:white;
+    text-transform: uppercase;
+    border: 2px solid white;    
+    width: 50%;
+    margin: 2.5em auto 0 auto;
+    padding:0.5em 0;
+}
+/* ---------------INFOS PANNEL------------- */
+#infos-pannel
+{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+}
+#infos-pannel-title
+{
+    font-size: 2.5em;
+    margin-bottom: 1.8em;    
+}
+.infos-elem
+{
+    margin-bottom: 4em;
+}
+.infos-elem-logo
+{
+    margin-bottom: 2.5em;
+}
+.infos-elem-title
+{
+    font-size:1.7em;
+    margin-bottom: 0.7em;
+}
+
+/* ---------------MORE INFOS--------------- */
+#more-infos-pannel
+{
+    background: rgb(45, 38, 64) url("images/bg-pattern-how-we-work-mobile.svg") no-repeat right top;
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+    margin: 0 auto 8em auto;
+    width: 90%;
+
+}
+#more-infos-itle
+{
+    width:70%;
+    font-size:2.5em;
+    margin: 0 auto 1em auto;    
+}
+#how-we-work-btn
+{
+    text-transform: uppercase;
+    border: 2px solid white;
+    width: 45%;
+    padding: 0.7em;
+    margin: 0 auto 1em auto;
+}
+/* -------------FOOTER------------ */
+footer
+{
+    background: hsl(0, 0%, 98%) url("images/bg-pattern-footer-mobile.svg") no-repeat;
+    text-align: center;
+    padding: 5.5em 0;
+    font-family: "Karla";
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+#footer-top-container
+{
+    margin-bottom:2em;
+}
+#footer-logo
+{
+    margin-bottom:2em;
+}
+.menu-title 
+{
+    margin:2em 0 2em 0;
+    color:rgb(114, 114, 114);
+}
+.sub-menu-elem
+{
+    margin-bottom:1em;
+
+}
